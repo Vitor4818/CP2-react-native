@@ -17,10 +17,12 @@ git clone https://github.com/Vitor4818/CP2-react-native.git
 npm install
 npm install @react-navigation/native-stack
 npm install @react-navigation/bottom-tabs
+npm install expo
 ```
 
 3. **Rode o projeto**:
 
 ```bash
 npm start
+npx expo start
 ```
