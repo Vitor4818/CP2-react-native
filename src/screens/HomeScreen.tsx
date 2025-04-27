@@ -1,5 +1,4 @@
-import { BottomSheetSlideInSpec } from '@react-navigation/stack/lib/typescript/src/TransitionConfigs/TransitionSpecs';
-import { View, Text, Button, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 export default function HomeScreen({ navigation }: any) {
     return (
@@ -9,7 +8,7 @@ export default function HomeScreen({ navigation }: any) {
                 style={[styles.button, styles.button]}
                 onPress={() => navigation.navigate('Profile')}
             >
-                <Text style={styles.button}>Ir para o Perfil</Text>
+                <Text style={styles.button}>Integrantes</Text>
             </TouchableOpacity>
 
 
@@ -17,7 +16,7 @@ export default function HomeScreen({ navigation }: any) {
                 style={[styles.button, styles.button]}
                 onPress={() => navigation.navigate('Details')}
             >
-                <Text style={styles.button}>Detalhes</Text>
+                <Text style={styles.button}>Checkpoint</Text>
             </TouchableOpacity>
         </View>
     );
