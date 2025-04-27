@@ -1,7 +1,13 @@
-
 # Checkpoint Native
 
 Aplicativo destinado ao checkpoint da matéria Mobile Application Development da FIAP.
+
+## Integrantes
+Pedro Henrique Lima Santos  RM558243
+Vitor Gomes Martins         RM558244
+Leonardo Pimentel Santos    RM557541
+
+Turma: 2TDSPX
 
 ## Instalação
 
