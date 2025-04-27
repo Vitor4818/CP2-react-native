@@ -1,8 +1,10 @@
-import {NavigationContainer} from "@react-navigation/native"
-export default function NavigatorContainer(children: any){
-    return(
+import { NavigationContainer } from "@react-navigation/native";
+import StackNavigation from './stack/StackNavigation'
+
+export default function NavigatorContainer() {
+    return (
         <NavigationContainer>
-            {children}
+            <StackNavigation />
         </NavigationContainer>
-    )
+    );
 }
